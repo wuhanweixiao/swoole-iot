@@ -7,8 +7,14 @@
             "email": "231800694@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+        "psr/container": "^1.0",
+        "psr/log": "^1.0"
+    },
     "autoload": {
+        "files": [
+            "src/Tcp/Utils/Functions.php"
+        ],
         "psr-4": {
             "SwooleTcp\\": "src/Tcp"
         }
