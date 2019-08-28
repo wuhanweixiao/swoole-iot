@@ -1,0 +1,16 @@
+{
+    "name": "suntrans/swoole_iot",
+    "description": "swoole tcp",
+    "authors": [
+        {
+            "name": "wuhanweixiao",
+            "email": "231800694@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SwooleTcp\\": "src/Tcp"
+        }
+    }
+}
